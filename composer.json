@@ -1,0 +1,16 @@
+{
+    "name": "digphp/psr17",
+    "description": "digphp psr17",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-factory": "^1.0",
+        "guzzlehttp/psr7": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigPHP\\Psr17\\": "src/"
+        }
+    }
+}
